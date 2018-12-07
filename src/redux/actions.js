@@ -3,7 +3,6 @@ export const doTest = () => ({
     test: 'some text',
 });
 
-
 export const loadAllMessages = (messages) => ({
     type: 'LOAD_MESSAGES',
     messages,

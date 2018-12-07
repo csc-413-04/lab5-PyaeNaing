@@ -67,15 +67,18 @@ html, body{
 .page-content{
   width: 900px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
-.messages{
+.messages {
   padding: 20px;
-  overflow-y: scroll;
+  height: 100px;
+  overflow-y:scroll;
   flex-grow: 2;
-  background: #dedede;
+  background: #dedede
 }
 
-.message{
-  
+.message {
+  background: white;
 }
